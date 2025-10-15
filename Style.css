@@ -43,3 +43,23 @@
     background-color: rgb(40, 40, 40);
     color: aliceblue;
 }
+
+.footer {
+    background-color: rgb(139, 139, 139);
+    bottom: 0;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    gap: 5%;
+    height: 40px;
+}
+.footer-icon {
+    height: 30px;
+    width: auto;
+}
+
+
+
