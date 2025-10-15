@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ua">
+<html lang="uk">
     <head>
         <title> InkServiceOdessa </title>
         <link rel="stylesheet" href="Style.css">
@@ -14,32 +14,36 @@
     </head>
     <body>
        <header>
-        <ul class="flex">
-            <li class="flex-auto text-xl text-center bg-neutral-700" ><a href="Main.html">Головна</a></li>
-            <li class="flex-auto text-xl text-center bg-neutral-700"><a href="Service.html">Сервіс</a></li>
-            <li class="flex-auto text-xl text-center bg-neutral-700"><a href="Contact.html">Контакти</a></li>
-        </ul>
+            <nav class="nav">
+                <div class="nav-div"><a href="Main.html"><b>Головна</b></a></div>
+                <div class="nav-div"><a href="Service.html"><b>Сервіс</b></a></div>
+                <div class="nav-div"><a href="Contact.html"><b>Контакти</b></a></div>
+            </nav>
                         <!--  <li><a href="Product.html">Product</a></li> -->
         </header>
 
-        <section class="flex grid grid-cols-2 m-15 gap-15">
-            <ul>
-                <li class="flex-auto bg-neutral-700 p-5 hover:bg-neutral-600">
-                    <a href="Service.html">
-                    <h2 class="text-center sm:text-2xl lg:text-4xl underline underline-offset-5 decoration-1 ">Комп'ютери</h2>
-                    <img src="images/laptop.png" width = 100% height = 100%></a>
+        <section class="main-section">
+            <ul class="main-ul">
+                <li>
+                    <div  class="main-div">
+                        <a href="Service.html">
+                        <h2 class="comp-print"><b>Комп'ютери</b></h2>
+                        <img src="images/laptop.png" width=600px height=600px></a>
+                    </div>
                 </li>
-                <li class="flex-auto bg-neutral-700 p-5 hover:bg-neutral-600">
-                    <a href="Service.html">
-                    <h2 class="text-center sm:text-2xl lg:text-4xl underline underline-offset-5 decoration-1 ">Принтери</h2>
-                    <img src="images/printer.png" width = 100% height = 100%></a>
+                <li >
+                    <div class="main-div" id="main-div-2">
+                        <a href="Service.html">
+                        <h2 class="comp-print"><b>Принтери<b></h2>
+                        <img src="images/printer.png" width=600px height=600px></a>
+                    </div>
                 </li>
             </ul>
         </section>
 
        <footer>
-        <a class="footer" href="https://www.instagram.com/inkserviceodessa/"><i  class="fa-brands fa-instagram"></i></a>
-        <a class="footer" href="Contact.html"><i class="fa-solid fa-location-dot";></i></a>
+            <a class="footer" href="https://www.instagram.com/inkserviceodessa/"><i  class="fa-brands fa-instagram"></i></a>
+            <a class="footer" href="Contact.html"><i class="fa-solid fa-location-dot";></i></a>
        </footer>
     </body>
    
