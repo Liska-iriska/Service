@@ -1,7 +1,7 @@
 .nav {
     text-decoration: none;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     background-color: rgb(139, 139, 139);
     display: flex;
     width: 100%;
@@ -25,13 +25,13 @@
     margin: 10%;
 }
 
-.nav-div {
+.nav-li {
     display: flex;   
-    width: 33%;
     align-items: center;
     justify-content: center;
     margin: 0;
     padding: 0;
+    flex-grow: 1;
 }
 
 .comp-print {
@@ -39,7 +39,7 @@
     font-size: x-large;    
 }
 
-.main-div:hover, .comp-print:hover, .nav-div:hover {
+.main-div:hover, .comp-print:hover, .nav-li:hover {
     background-color: rgb(40, 40, 40);
     color: aliceblue;
 }
